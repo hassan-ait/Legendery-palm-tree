@@ -1,7 +1,6 @@
 try {
     # Les innholdet fra "file.txt" i mappen "Oppgave 1"
     $filSti = "oppgave 1/file.txt"
-    
     # Sjekk om filen eksisterer
     if (Test-Path $filSti) {
         $inndataTekst = Get-Content $filSti
